@@ -3,5 +3,11 @@
 <p> Fill out the form to get an email when the product you want gets below a price range.</p>
 
 <form>
+    Amazon URL:<br>
+    <input type="text" name="amazon-url" pattern="https://amazon.com/*" required><br>
+    Email me when the price gets below this value:<br>
+    <input type="number" min="1" max="100000" required>USD<br>
+    Your Email Address:<br>
+    <input type="email" id="email" placeholder="johnsmith@gmail.com" required>
 
 </form>
