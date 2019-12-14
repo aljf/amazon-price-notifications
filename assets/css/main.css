@@ -4687,3 +4687,7 @@ input, select, textarea {
 		}
 
 	}
+
+	.github {
+		list-style: none;
+	}
